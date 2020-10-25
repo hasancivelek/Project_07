@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+<listeners>
+<!-- <listener class-name="com.qa.hotels.com.listeners.ExtentReportListener"/> -->
+<!-- <listener class-name="com.qa.hotels.com.listeners.TestAllureListener"/> -->
+<listener class-name="com.qa.hotels.com.listeners.ScreenshotListener"/>
+
+</listeners>
+  <test name="Regression Test">
+    <classes>
+      <class name="com.qa.hotels.com.tests.HomePageTest"/>
+     <!--  <class name="com.qa.hotels.com.tests.SelectHotelsTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

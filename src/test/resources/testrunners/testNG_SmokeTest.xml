@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+  <test  name="Smoke Test">
+    <classes>
+      <class name="com.qa.hotels.com.tests.HomePageTest">
+      <methods>
+      
+       <include name="selectDate"/>
+     <exclude name="verifyHomePageTitle"/>
+      
+      </methods>
+    
+      </class>
+     
+      <class name="com.qa.hotels.com.tests.SelectHotelsTest">
+      <methods>
+      
+       <exclude name="verifyHiltonIs3Star"/>
+     <include name="getHotelsFeature"/>
+     <exclude name="verifyhotels3"/>
+     <exclude name="get4StarHotels"/>
+     <exclude name="get5starHotelsList"/>
+      
+      </methods>
+      
+      
+      </class>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

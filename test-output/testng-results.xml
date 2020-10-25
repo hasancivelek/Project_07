@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="97416" started-at="2020-10-24T19:28:35 CDT" finished-at="2020-10-24T19:30:12 CDT">
+    <groups>
+    </groups>
+    <test name="Regression Test -- firefox" duration-ms="92416" started-at="2020-10-24T19:28:35 CDT" finished-at="2020-10-24T19:30:07 CDT">
+      <class name="com.qa.hotels.com.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@3c5a54b7]" name="setUp" is-config="true" duration-ms="4746" started-at="2020-10-24T19:28:42 CDT" finished-at="2020-10-24T19:28:47 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectDate()[pri:1, instance:com.qa.hotels.com.tests.HomePageTest@3c5a54b7]" name="selectDate" duration-ms="30159" started-at="2020-10-24T19:28:47 CDT" description="Select date , room , childage " finished-at="2020-10-24T19:29:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@3c5a54b7]" name="tearDown" is-config="true" duration-ms="423" started-at="2020-10-24T19:29:17 CDT" finished-at="2020-10-24T19:29:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@3c5a54b7]" name="setUp" is-config="true" duration-ms="3423" started-at="2020-10-24T19:29:17 CDT" finished-at="2020-10-24T19:29:21 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:2, instance:com.qa.hotels.com.tests.HomePageTest@3c5a54b7]" name="verifyHomePageTitle" duration-ms="11302" started-at="2020-10-24T19:29:21 CDT" description="Verify Page Title" finished-at="2020-10-24T19:29:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@3c5a54b7]" name="tearDown" is-config="true" duration-ms="416" started-at="2020-10-24T19:29:32 CDT" finished-at="2020-10-24T19:29:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hotels.com.tests.HomePageTest -->
+      <class name="com.qa.hotels.com.tests.SelectHotelsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotels.com.tests.SelectHotelsTest@62515a47]" name="setUp" is-config="true" duration-ms="7140" started-at="2020-10-24T19:28:35 CDT" finished-at="2020-10-24T19:28:42 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHiltonIs3Star()[pri:1, instance:com.qa.hotels.com.tests.SelectHotelsTest@62515a47]" name="verifyHiltonIs3Star" duration-ms="37533" started-at="2020-10-24T19:28:42 CDT" description="verify Hilton is 3 star" finished-at="2020-10-24T19:29:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHiltonIs3Star -->
+        <test-method status="PASS" signature="getHotelsFeature()[pri:2, instance:com.qa.hotels.com.tests.SelectHotelsTest@62515a47]" name="getHotelsFeature" duration-ms="19898" started-at="2020-10-24T19:29:20 CDT" description="Select hotels feature" finished-at="2020-10-24T19:29:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelsFeature -->
+        <test-method status="PASS" signature="verifyhotels3()[pri:3, instance:com.qa.hotels.com.tests.SelectHotelsTest@62515a47]" name="verifyhotels3" duration-ms="8109" started-at="2020-10-24T19:29:39 CDT" description="Get 3 star hotels " finished-at="2020-10-24T19:29:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhotels3 -->
+        <test-method status="PASS" signature="get4StarHotels()[pri:4, instance:com.qa.hotels.com.tests.SelectHotelsTest@62515a47]" name="get4StarHotels" duration-ms="10215" started-at="2020-10-24T19:29:48 CDT" description="Get 4 star hotels " finished-at="2020-10-24T19:29:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get4StarHotels -->
+        <test-method status="PASS" signature="get5starHotelsList()[pri:5, instance:com.qa.hotels.com.tests.SelectHotelsTest@62515a47]" name="get5starHotelsList" duration-ms="9342" started-at="2020-10-24T19:29:58 CDT" description="Get 5 star hotels" finished-at="2020-10-24T19:30:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get5starHotelsList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.com.tests.SelectHotelsTest@62515a47]" name="tearDown" is-config="true" duration-ms="126" started-at="2020-10-24T19:30:07 CDT" finished-at="2020-10-24T19:30:07 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hotels.com.tests.SelectHotelsTest -->
+    </test> <!-- Regression Test - firefox -->
+    <test name="Regression Test -- chrome" duration-ms="97416" started-at="2020-10-24T19:28:35 CDT" finished-at="2020-10-24T19:30:12 CDT">
+      <class name="com.qa.hotels.com.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@57bd2029]" name="setUp" is-config="true" duration-ms="2950" started-at="2020-10-24T19:28:43 CDT" finished-at="2020-10-24T19:28:46 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectDate()[pri:1, instance:com.qa.hotels.com.tests.HomePageTest@57bd2029]" name="selectDate" duration-ms="25291" started-at="2020-10-24T19:28:46 CDT" description="Select date , room , childage " finished-at="2020-10-24T19:29:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@57bd2029]" name="tearDown" is-config="true" duration-ms="108" started-at="2020-10-24T19:29:11 CDT" finished-at="2020-10-24T19:29:11 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@57bd2029]" name="setUp" is-config="true" duration-ms="2096" started-at="2020-10-24T19:29:11 CDT" finished-at="2020-10-24T19:29:13 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:2, instance:com.qa.hotels.com.tests.HomePageTest@57bd2029]" name="verifyHomePageTitle" duration-ms="8770" started-at="2020-10-24T19:29:13 CDT" description="Verify Page Title" finished-at="2020-10-24T19:29:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.com.tests.HomePageTest@57bd2029]" name="tearDown" is-config="true" duration-ms="54" started-at="2020-10-24T19:29:22 CDT" finished-at="2020-10-24T19:29:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hotels.com.tests.HomePageTest -->
+      <class name="com.qa.hotels.com.tests.SelectHotelsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotels.com.tests.SelectHotelsTest@6b410923]" name="setUp" is-config="true" duration-ms="7908" started-at="2020-10-24T19:28:35 CDT" finished-at="2020-10-24T19:28:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHiltonIs3Star()[pri:1, instance:com.qa.hotels.com.tests.SelectHotelsTest@6b410923]" name="verifyHiltonIs3Star" duration-ms="46995" started-at="2020-10-24T19:28:43 CDT" description="verify Hilton is 3 star" finished-at="2020-10-24T19:29:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHiltonIs3Star -->
+        <test-method status="PASS" signature="getHotelsFeature()[pri:2, instance:com.qa.hotels.com.tests.SelectHotelsTest@6b410923]" name="getHotelsFeature" duration-ms="14850" started-at="2020-10-24T19:29:30 CDT" description="Select hotels feature" finished-at="2020-10-24T19:29:45 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelsFeature -->
+        <test-method status="PASS" signature="verifyhotels3()[pri:3, instance:com.qa.hotels.com.tests.SelectHotelsTest@6b410923]" name="verifyhotels3" duration-ms="7976" started-at="2020-10-24T19:29:45 CDT" description="Get 3 star hotels " finished-at="2020-10-24T19:29:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhotels3 -->
+        <test-method status="PASS" signature="get4StarHotels()[pri:4, instance:com.qa.hotels.com.tests.SelectHotelsTest@6b410923]" name="get4StarHotels" duration-ms="10142" started-at="2020-10-24T19:29:53 CDT" description="Get 4 star hotels " finished-at="2020-10-24T19:30:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get4StarHotels -->
+        <test-method status="PASS" signature="get5starHotelsList()[pri:5, instance:com.qa.hotels.com.tests.SelectHotelsTest@6b410923]" name="get5starHotelsList" duration-ms="9397" started-at="2020-10-24T19:30:03 CDT" description="Get 5 star hotels" finished-at="2020-10-24T19:30:12 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get5starHotelsList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotels.com.tests.SelectHotelsTest@6b410923]" name="tearDown" is-config="true" duration-ms="124" started-at="2020-10-24T19:30:12 CDT" finished-at="2020-10-24T19:30:12 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hotels.com.tests.SelectHotelsTest -->
+    </test> <!-- Regression Test - chrome -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
